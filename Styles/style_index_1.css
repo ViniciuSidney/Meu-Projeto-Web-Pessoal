@@ -39,6 +39,15 @@ p {
   color: rgb(29, 70, 56);
 }
 
+.link {
+  color: rgb(7, 119, 184);
+  font-weight: bold;
+}
+
+.link:hover {
+  color: rgb(4, 91, 141);
+}
+
 /*Marcações*/
 .center {
   text-align: center;
