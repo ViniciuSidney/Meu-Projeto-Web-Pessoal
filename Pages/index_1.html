@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="/Styles/style_index_1.css" />
 
     <style>
-      @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+      @import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap");
     </style>
 
     <title>Página 1</title>
@@ -19,10 +19,14 @@
     </header>
     <nav>
       <ul id="nav-links">
-        <li><a id="nav-link-1" class="nav-link link active" href="" >Link 1</a></li>
-        <li><a id="nav-link-2" class="nav-link link" href="" >Link 2</a></li>
-        <li><a id="nav-link-3" class="nav-link link" href="" >Link 3</a></li>
-        <li id="nav-list-4"><a id="nav-link-4" class="nav-link link" href="" >Link Especial</a></li>
+        <li>
+          <a id="nav-link-1" class="nav-link link active" href="">Link 1</a>
+        </li>
+        <li><a id="nav-link-2" class="nav-link link" href="">Link 2</a></li>
+        <li><a id="nav-link-3" class="nav-link link" href="">Link 3</a></li>
+        <li id="nav-list-4">
+          <a id="nav-link-4" class="nav-link link" href="">Link Especial</a>
+        </li>
       </ul>
     </nav>
     <main>
@@ -65,13 +69,25 @@
       </section>
 
       <aside id="articles">
-        <h2 id="title-configs" >Opções</h2>
+        <h2 id="title-configs">Opções</h2>
 
         <section class="section">
-          <button class="button jetbrains-mono-font" id="button 1">Opção 1</button>
-          <button class="button jetbrains-mono-font" id="button 2">Opção 2</button>
+          <button
+            onclick="changeThemeToDark()"
+            class="button jetbrains-mono-font"
+            id="option-button-1"
+          >
+            Dark Theme
+          </button>
+          <button
+            onclick="changeThemeToLight()"
+            class="button jetbrains-mono-font"
+            id="option-button-2"
+          >
+            Light Theme
+          </button>
         </section>
-        <h2 id="title-articles" >Outros</h2>
+        <h2 id="title-articles">Outros</h2>
 
         <article id="summary">
           <h3 id="title-summary" class="title">Sumário</h3>
@@ -82,7 +98,7 @@
               <li>Sub Tópico 1.1</li>
               <li>Sub Tópico 1.2</li>
             </ul>
-              
+
             <li>Tópico 2</li>
           </ul>
         </article>
@@ -97,15 +113,17 @@
         <article id="advertising">
           <h3 id="title-advertising" class="title">Propaganda</h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus accusamus nisi obcaecati iusto fuga numquam ipsam sed.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus
+            accusamus nisi obcaecati iusto fuga numquam ipsam sed.
           </p>
         </article>
       </aside>
     </main>
     <footer>
       <p>
-        Informações Adicionais:<br>Feito por <strong>Vinícius Sidney</strong>
+        Informações Adicionais:<br />Feito por <strong>Vinícius Sidney</strong>
       </p>
     </footer>
+    <script src="/Scripts/script_index_1.js"></script>
   </body>
 </html>
